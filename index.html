@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Du lịch Hạ long</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"><img src="./logo22.png" alt="my logo" width="25%"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">T.chủ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Về</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">K.phá</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">K.Sạn</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Chế độ tối màu</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="https://c4.wallpaperflare.com/wallpaper/515/503/662/photography-h%E1%BA%A1-long-bay-boat-earth-wallpaper-preview.jpg"
+                alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Khám phá địa điểm của bạn</span>
+                    <h1 class="home__data-title">Khám phá cái <br> Đẹp <b>của <br>Vịnh Hạ Long</b></h1>
+                    <a href="#about" class="button">Khám phá ngay</a>
+
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+
+                <!-- <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 best places to visit</span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="https://c4.wallpaperflare.com/wallpaper/515/503/662/photography-h%E1%BA%A1-long-bay-boat-earth-wallpaper-preview.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div> -->
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Về du lịch <br> Vịnh Hạ Long quê tôi.</h2>
+                    <p class="about__description">Khi đến Vịnh Hạ Long, du khách sẽ chìm đắm trong khung cảnh ngoạn mục
+                        của những dãy núi đá lớn trên biển. Đảo đá vôi mọc lên từ lòng biển như những ngọn núi hùng vĩ,
+                        tạo nên một bức tranh tuyệt đẹp và mê hoặc. Có những đảo có hình dạng kỳ quái, như rồng, con hà
+                        mã, hoặc những ngôi nhà câu chữ được hình thành từ sự khắc nghiệt của thời gian và sóng biển.
+                    </p>
+                    <a href="#" class="button">Trở lại đầu tiên</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                    </div>
+
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Khắm phá một số <br> thứ hay của Hạ Long</h2>
+
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== DISCOVER 1 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="./assets/img/nha-hang-hong-hanh-ha-long-2.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Ẩm thực</h2>
+                            <span class="discover__description">Hải sản tươi ngon.</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="./assets/img/sun-world-halong-complex-5-1648885013055493763182.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Cáp treo Nữ Hoàng</h2>
+                            <span class="discover__description">Có sức chứa lớn nhất châu Á.</span>
+                        </div>
+                    </div>
+                    <!--==================== DISCOVER 3 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="./assets/img/hang-sung-sot.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">hang động</h2>
+                            <span class="discover__description">Hang sửng sốt lọt vào top 10 hang đẹp nhất thế giới.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== VIDEO ====================-->
+        <section class="video section">
+            <h2 class="section__title">HA LONG BAY</h2>
+
+            <div class="video__container container">
+                <p class="video__description">Vịnh Hạ Long, còn được biết đến với cái tên "Thiên đường đáng mơ ước" của
+                    Việt Nam.</p>
+
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src=".//assets/video/video - Trim.mp4" type="video/mp4">
+                    </video>
+
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PLACES ====================-->
+        <section class="place section" id="place">
+            <h2 class="section__title">Khách sạn</h2>
+
+            <div class="place__container container grid">
+                <!--==================== PLACES CARD 1 ====================-->
+                <div class="place__card">
+                    <img src="./assets/img/49497a1e8aa26a190929e1ae147f7408.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">5,0</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Draha Halong Hotel</h3>
+                            <span class="place__subtitle">Cảng Hòn Gai, Hạ Long</span>
+                            <span class="place__price">1.074.997 VNĐ</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 2 ====================-->
+                <div class="place__card">
+                    <img src="./assets/img/f8493700597964a5ad2c5672188d410c.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,5</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Sunland HaLong Hotel</h3>
+                            <span class="place__subtitle">Hạ Long</span>
+                            <span class="place__price">915.074 VNĐ</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 3 ====================-->
+                <div class="place__card">
+                    <img src="./assets/img/468644235.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,9</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Diamond Luxury Hotel</h3>
+                            <span class="place__subtitle">Cảng Hòn Gai, Hạ Long</span>
+                            <span class="place__price">1.069.004 VNĐ</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">Hãy để lại <br> Gmail của bạn</h2>
+                    <p class="subscribe__description">Hãy để lại gmail của bạn để có thể nhận được ưu đãi của chúng tôi.
+                    </p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Nhập email tại đây" class="subscribe__input">
+
+                        <button class="button">
+                            Gửi
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Nhu Dang & Tien Minh</h3>
+                    <p class="footer__description">Du lịch bạn chọn <br> điểm đến, chúng tôi cung cấp cho bạn <br> kinh nghiệm.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Về</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Về chúng tôi</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Tương lai</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Công ty</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Đội ngũ</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Kế hoạch y Giá cả</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Trở thành một thành viên</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Hỗ Trợ</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Trung Tâm Hỗ Trợ</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Liên hệ với chúng tôi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2023 MindX project. Nhu Dang & Tien Minh.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Điều khoản & Thỏa thuận</a>
+                    <a href="#" class="footer__terms-link">Chính sách bảo mật</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+    <!--=============== SCROLL REVEAL===============-->
+    <script>
+        setInterval(() => {
+            flashTitle("Như Đăng & Tiến Minh", "Du lịch hạ long")
+        }, 1500);
+
+        function flashTitle(pageTitle, newTitle) {
+            if (document.title == pageTitle) {
+                document.title = newTitle;
+            } else {
+                document.title = pageTitle;
+            }
+        }
+
+    </script>
+
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
